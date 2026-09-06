@@ -14,7 +14,21 @@ network:
   - rust
   - java
 
-permissions: read-all
+permissions:
+   actions: read
+   attestations: read
+   checks: read
+   contents: read
+   deployments: read
+   discussions: read
+   id-token: none
+   issues: read
+   packages: read
+   pages: read
+   pull-requests: read
+   security-events: read
+   statuses: read
+   copilot-requests: write
 
 tracker-id: code-simplifier
 
