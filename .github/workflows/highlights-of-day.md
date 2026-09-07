@@ -9,7 +9,8 @@ permissions:
   issues: read
   pull-requests: read
 tools:
-  github: true
+  github:
+    lockdown: false
   edit: true
   web-fetch: {}
 network:
